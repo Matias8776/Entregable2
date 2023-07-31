@@ -84,7 +84,7 @@ class ProductManager {
     };
 }
 
-const productManager = new ProductManager(); // se crea instancia
+// const productManager = new ProductManager(); // se crea instancia
 // console.log(productManager.getProducts()); // se verifica que recien creada devuelva un array vacio
 // productManager.addProduct(
 //     "producto prueba",
@@ -105,43 +105,3 @@ const productManager = new ProductManager(); // se crea instancia
 // productManager.deleteProduct(1); // se elimina un producto por el id
 // productManager.deleteProduct(5); // se verifica que si el id no existe arroje un error
 // console.log(productManager.getProducts()); // se comprueba que el producto se elimino correctamente
-
-console.log(productManager.getProducts());
-
-productManager.addProduct(
-    "producto prueba5",
-    "Este es un producto prueba",
-    200,
-    "",
-    "abc1235",
-    25
-);
-
-productManager.addProduct(
-    "producto prueba6",
-    "Este es un producto prueba",
-    200,
-    "",
-    "abc1236",
-    25
-);
-
-productManager.addProduct(
-    "producto prueba7",
-    "Este es un producto prueba",
-    200,
-    "",
-    "abc1237",
-    25
-);
-
-// productManager.addProduct(
-//     "producto prueba4",
-//     "Este es un producto prueba",
-//     200,
-//     "",
-//     "abc1234",
-//     25
-// );
-
-console.log(productManager.getProducts());
